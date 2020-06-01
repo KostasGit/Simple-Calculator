@@ -265,7 +265,7 @@ class CalculatorController: UIViewController , UIPickerViewDataSource , UIPicker
     }
     
     @objc func addDot() {
-        let charset = CharacterSet(charactersIn: "+-/X")
+        let charset = CharacterSet(charactersIn: "+-/X.")
         if calculationsDisplay.text!.rangeOfCharacter(from: charset) != nil {
             return
         }

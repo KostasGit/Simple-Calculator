@@ -1,2 +1,2 @@
 # Simple-Calculator
-A simple calculator that includes a currency converter
+A simple calculator (written in Swift 4) that includes a currency converter
